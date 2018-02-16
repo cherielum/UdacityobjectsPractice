@@ -24,3 +24,15 @@ var umbrella = {
 };
 
 console.log(umbrella.isOpen);
+
+//Object-literal notation
+
+var sister = {
+    name: "Sarah", 
+    age: 23,
+    parents: [ "alice", "andy" ],
+    siblings: ["julia"],
+    favoriteColor: "purple",
+    pets: true
+  };
+      
