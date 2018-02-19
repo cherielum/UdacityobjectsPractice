@@ -36,3 +36,22 @@ var sister = {
     pets: true
   };
       
+  //console log a property in 2 ways:
+  var user = {
+    email: "user@example.com",
+    firstName: "first",
+    lastName: "last"
+  };
+
+  console.log(user.email); //console.log(user["email"]);
+
+  //Quiz 7-2 Create a breakfast object to represent the following menu item:
+  //The Lumberjack - $9.95 eggs, sausage, toast, hashbrowns, pancakes
+
+  var breakfast = {
+    name: "The Lumberjack",
+    price: 9.95,
+    ingredients: ["eggs", "sausage", "toast", "hashbrowns", "pancakes"]
+};
+
+
